@@ -49,7 +49,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             WEB1.HTML
-    url:               /example/g
+    url:               /example/
   - title:             WEB2.sdf
     url:               /docs/
   - title:             WEB2.sdfss
