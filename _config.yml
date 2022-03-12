@@ -48,9 +48,9 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
+  - title:             WEB1.HTML
+    url:               /example/g
+  - title:             WEB2.sdf
     url:               /docs/
   - title:             About
     url:               /about/
