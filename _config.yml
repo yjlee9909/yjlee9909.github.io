@@ -52,6 +52,8 @@ menu:
     url:               /example/g
   - title:             WEB2.sdf
     url:               /docs/
+    title:             WEB2.sdfss
+    url:               /docssss/
   - title:             About
     url:               /about/
 
