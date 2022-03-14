@@ -48,16 +48,20 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             WEB1.HTML
-    url:               /example/
-  - title:             WEB2.sdf
-    url:               /docs/
-  - title:             WEB2.sdfss
-    url:               /docssss/
-  - title:             WEB2.sdfssse
-    url:               /docssss234/
   - title:             About
     url:               /about/
+  - title:             Example1
+    url:               /example1/
+  - title:             Example2
+    url:               /example2/
+  - title:             Subcat
+    url:               /subcat/
+    submenu:
+      - title:          Test1
+        url:            /test1/
+      - title:          Test2
+        url:            /test2/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -83,7 +87,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
