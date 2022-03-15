@@ -52,6 +52,10 @@
   margin-top: 20px !important;      // 20px
 }
 
+//about 밑에 밑줄 색 변경
+.content a:not(.btn):not(.no-hover) {
+  border-color: rgba(255, 0, 198 ,0.5);
+}
 // url 밑줄 색 변경 (검사 -> css코드 부분)
 .content a:not(.btn):not(.no-hover) {
   text-decoration-color: rgba(85, 4, 183, 0.4);
