@@ -1,0 +1,13 @@
+{% if site.copyright.size > 0 or site.legal.size > 0 or site.hydejack.advertise %}
+    <footer class="content" role="contentinfo">
+    <hr/>
+    {% if site.copyright.size > 0 %}
+        <p><small class="copyright">{{ site.copyright | markdownify | replace:'<p>','' | replace:'</p>','' }}</small></p>
+    {% endif %}
+
+    <!--아래부분 커스텀하기-->
+    <p>
+        <code>Powered by <a href="https://yjlee9909.github.io/">__YJ__</a></code>
+    </p>
+    </footer>
+{% endif %}
