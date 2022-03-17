@@ -55,7 +55,7 @@
 
 // url 밑줄 색 변경 (검사 -> css코드 부분)
 .content a:not(.btn):not(.no-hover) {
-  text-decoration-color: rgba(85, 4, 183, 0.4);
+  text-decoration-color: rgba(178, 131, 235, 0.4);
 }
 
 //url 글씨 색 변경하기 (검사 -> url 부분의 p를 확인 -> p안에 a존재)
@@ -96,4 +96,97 @@
       text-underline-position:under;
       padding-bottom : 2px;
     }
+}
+//page-button (이전글,다음글) 커스텀하기
+
+.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-control > div {
+  max-width: 50%;
+}.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+//버튼 만들기
+/*.button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #dec9f1 100%);
+  background-color:#ffffff;
+  border-radius:25px; //모서리 둥근 정도
+  border:3px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#a19595;  //글씨 색 변경
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  padding:6px 100px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}*/
+//이전글 버튼 커스텀
+.buttonprev {
+  box-shadow: 5px 5px 5px;
+  background:linear-gradient(to right, #bfd7f6 5%, #ffffff 100%);
+  background-color:#bfd7f6;
+  border-top-left-radius:25px; //모서리 둥근 정도
+  border-bottom-left-radius:25px;
+  border-top-right-radius:25px;
+  border-bottom-right-radius:25px;
+
+  outline: groove 3px #72aefda4;
+  display:inline-block;
+  cursor:pointer;
+  color:#524f4f;  //글씨 색 변경
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  padding:3px 15px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  transition-duration: 0.3s;
+}
+//다음글 버튼 커스텀
+.buttonnext {
+  box-shadow: 5px 5px 5px;
+  background:linear-gradient(to left, #bfd7f6 5%, #ffffff 100%);
+  background-color:#bfd7f6;
+  border-top-right-radius:25px;
+  border-bottom-right-radius:25px;
+  border-top-left-radius:25px; //모서리 둥근 정도
+  border-bottom-left-radius:25px;
+
+  outline: groove 3px #72aefda4;
+  display:inline-block;
+  cursor:pointer;
+  color:#524f4f;  //글씨 색 변경
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  
+  padding:3px 15px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+//마우스 포인터가 올라간 경우
+//background:linear-gradient(진행방향,색상지정점1,색상지정점2,...);
+.button:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
+}
+
+.button:active {
+  position:relative;
+  margin-left: 5px;
+  margin-top : 5px;
+  box-shadow : none;
+  top:5px;
 }
