@@ -34,22 +34,26 @@
       {% assign post_format = "%Y년 %m월 %d일" | default:"%Y %m %d" %}
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
     </span>
-    <br>
+    <br><br>
     </div>
     {% assign alt = false %}
     {% unless hide_image %}{% if post.image %}
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
+        <br>
         <div class="lead aspect-ratio sixteen-nine flip-project-img">
           {% include_cached components/hy-img.html img=post.image alt=post.title width=864 height=486 %}
         </div>
       {% unless no_link_title %}</a>{% endunless %}
       {% assign alt = '' %}
     {% endif %}{% endunless %}
+    
+
 
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
    
   </header>
   <div class="markdown-body">
+
   {% if no_excerpt %}
     {{ post.content }}
   {% else %}
@@ -67,3 +71,10 @@
   {% endif %}
 </div>
 </article>
+
+<!--맨 밑으로 보내기-->
+<!--게시물 생성시 hits 생성-->
+<div style="text-align:right; text-align: center">
+  <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https: //' | remove_first: 'http://' }}{{ page.url }}" target="_blank">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%238FB2DD&title_bg=%233D3F3D&icon=codeforces.svg&icon_color=%23E7E7E7&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=false" /> </a>
+</div>
