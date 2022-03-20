@@ -1,0 +1,11 @@
+{% assign post = include.post %}
+{% assign format = include.format | default:site.data.date_formats.related_post | default:"%Y %m %d" %}
+<!--관련된 리스트 순으로 가져오기 | 시간 순으로 가져오기-->
+<li class="h6">
+  <div>
+    <time style="display: inline-block; width: 2.2rem" class="faded fine" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:format }}</time>
+    <a href="{{ post.url | relative_url }}" class="flip-title"><span>{{ post.title }} </span></a>
+  </div>
+</li>
+
+<!--포스트 리스트 스타일 바꾸기-->
