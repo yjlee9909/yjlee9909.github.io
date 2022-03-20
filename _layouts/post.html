@@ -4,6 +4,8 @@ layout: base
 
 <!-- 포스트 게시물이 되는 페이지 레이아웃 수동 커스텀하기-->
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+<!--analytics 부분 추가하기-->
+{% include analytics.html %}
 
 {% include components/page-button.html %}
 <!--about 윗부분에 이전글 다음글 버튼 추가하기-->
