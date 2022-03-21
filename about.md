@@ -20,7 +20,7 @@ hide_description: true
 ## Personal Data
 ---
 > 1999.09.20 대한민국,xx 시,xx 구 출생
-> 연락처: yjlee9909@gmail.com
+> 연락처: yjlee9909@naver.com
 > Github : [https://github.com/yjlee9909](https://github.com/yjlee9909) 
 ## Education
 ---
