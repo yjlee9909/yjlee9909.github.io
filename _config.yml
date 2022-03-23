@@ -54,8 +54,15 @@ menu:
     url:               /posts/
   - title:             JAVA
     url:               /java/
-  - title:             Example2
-    url:               /example2/
+  - title:             WEB
+    url:               /web/
+    submenu:
+      - title:          HTML
+        url:            /html/
+      - title:          CSS
+        url:            /css/
+      - title:          JavaScript
+        url:            /javascript/
   - title:             Subcat
     url:               /subcat/
     submenu:
