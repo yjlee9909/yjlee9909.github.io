@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Example1
+title: JAVA
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: example1
+slug: java
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  메뉴1 예시
+  자바 공부
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

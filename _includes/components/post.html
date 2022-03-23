@@ -25,6 +25,7 @@
       {% assign tag_start          = "Hashtag : #"          | default:" - " %}  <!--태그표시-->
       {% assign category_separator = site.data.strings.category_separator | default:" >> " %}
       {% assign tag_separator      = " #"     | default:". "  %}
+      
     
     <span class="ellipis mrl">  
       {% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
