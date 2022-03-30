@@ -33,15 +33,15 @@ http://www.tipue.com/search
 
 
 /* search box */
-
+/*검색창 커스텀 하기*/
 
 #tipue_search_input
 {
      color: #333;
-     max-width: 150px;
-     max-height: 20px;
+     max-width: 120px;
+     max-height: 18px;
 	padding: 15px;
-	border: 2px solid #9259fa;
+	border: 2px solid #c0aae7;
 	border-radius: 0;
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -50,6 +50,7 @@ http://www.tipue.com/search
 	margin: 0;
      text-align: center;
 }
+/*아이콘 높이 맞추기*/
 .tipue_search_icon
 {
      width: 19px;

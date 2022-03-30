@@ -55,7 +55,7 @@
 
 // url 밑줄 색 변경 (검사 -> css코드 부분)
 .content a:not(.btn):not(.no-hover) {
-  text-decoration-color: rgba(178, 131, 235, 0.4);
+  text-decoration-color: rgba(102, 115, 235, 0.4);
 }
 
 //url 글씨 색 변경하기 (검사 -> url 부분의 p를 확인 -> p안에 a존재)
@@ -68,7 +68,10 @@
   font-weight: bold !important;
   color: rgb(3,102,224) !important;
 }
-
+//포스트 글 about 밑에 깃허브, 이메일 밑줄 색 변경하기
+.content a:not(.btn):not(.no-hover) {
+  border-color: rgba(0, 6, 255 , 0.5);
+}
 .markdown-body {
   kbd {
     font-family: monospace;
