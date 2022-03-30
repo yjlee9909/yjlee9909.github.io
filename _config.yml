@@ -63,13 +63,13 @@ menu:
         url:            /css/
       - title:          JavaScript
         url:            /javascript/
-  - title:             Subcat
-    url:               /subcat/
-    submenu:
-      - title:          Test1
-        url:            /test1/
-      - title:          Test2
-        url:            /test2/
+  #- title:             Subcat
+    #url:               /subcat/
+    #submenu:
+     # - title:          Test1
+      #  url:            /test1/
+     # - title:          Test2
+     #   url:            /test2/
 
 
 # Add links to the footer.
