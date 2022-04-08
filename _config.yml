@@ -63,6 +63,8 @@ menu:
         url:            /css/
       - title:          JavaScript
         url:            /javascript/
+  - title:             Data Structure
+    url:               /datastructure/
   #- title:             Subcat
     #url:               /subcat/
     #submenu:
