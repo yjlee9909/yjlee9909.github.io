@@ -27,6 +27,11 @@ title:                 개발공부 블로그
 description:           >
   따라하면서 배우는 GitBlog
 
+markdown: kramdown  
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # A shorter description for the sidebar.
 tagline:               개발공부중인 GitBlog
 
