@@ -27,7 +27,7 @@ title:                 개발공부 블로그
 description:           >
   따라하면서 배우는 GitBlog
 
-markdown: kramdown  
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -42,6 +42,11 @@ keywords:              [git, gitblog, front-end, back-end, android]
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo.png
+
+
+futrue: true
+
+
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
