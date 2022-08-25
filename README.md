@@ -20,6 +20,6 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.
 [download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
 
 
-# velog 주소
+# yjlee9909의 velog 주소
 
 https://velog.io/@yoon91
